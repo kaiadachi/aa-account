@@ -18,7 +18,7 @@ const getDefaultLightAccountFactoryAddress = (chain) => {
         case chains_1.base.id:
         case chains_1.baseGoerli.id:
         case chains_1.baseSepolia.id:
-            return "0x17B46b60B1Cc9632AE2AB5a58a90A20B0a41cf74";
+            return "0x412BA24Ca34634A9959dB0C7d144E0373AFbc7aB";
     }
     throw new Error(`no default light account factory contract exists for ${chain.name}`);
 };
